@@ -1,4 +1,7 @@
-BasedOnStyle: LLVM
-IndentWidth: 4
-ColumnLimit: 80
-SortIncludes: true
+BasedOnStyle: Google        # 以 Google 风格为基础
+IndentWidth: 4              # 设置缩进宽度为 4 个空格
+TabWidth: 4                 # 设置制表符宽度为 4 个空格
+UseTab: Never               # 强制使用空格而不是制表符
+ColumnLimit: 80             # 每行最大字符数为 80
+AlignConsecutiveAssignments: true  # 对齐连续的赋值语句
+BreakBeforeBraces: Attach   # 大括号样式为 "Attach"（大括号与函数名等在同一行）
